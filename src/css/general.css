@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700');
+@import './rules.css';
+html {
+    -webkit-text-size-adjust: 100%;
+}
+html, body, #root {
+    font-family: 'Montserrat', sans-serif;
+    height:100%;
+    margin:0;
+    background-color:var(--backdrop);
+}
+main {
+    padding-top:70px;
+    min-height:80vh;
+}
+.parsed-link {
+    opacity: 60%;
+}
+.parsed-link:hover {
+    opacity:100%;
+}
+.top-hat {
+    padding-top:20px;
+}
+.bottom-hat {
+    padding-bottom:20px;
+}
