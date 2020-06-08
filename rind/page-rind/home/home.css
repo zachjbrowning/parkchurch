@@ -1,0 +1,66 @@
+.big-tree-box {
+    width:100%;
+    height:min(80vh,800px);
+    overflow:hidden;
+    position:relative;
+    display:flex;
+    justify-self: center;
+    align-self: center;
+}
+#big-tree {
+    width:100%;
+    position:absolute;
+    background-image:url('../../../public/tres.jpg');
+    background-repeat:no-repeat;
+    background-position:top;
+    background-size:cover;
+    height:100%;
+}
+#big-tree-shadow {
+    position:absolute;
+    background-image:linear-gradient(#7d9c7c00, #7d9c7c);
+    height:100%;
+    width:100%;
+    bottom:0;
+}
+#big-tree-content {
+    text-shadow: 2px 2px #594E4Aaa; 
+    font-size:50px;
+    color:white;
+    z-index:1;
+}
+#big-tree-content, .green-content, .white-content {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    color:white;
+
+} 
+.green-content {
+    background-color:#7d9c7c;
+    padding-top:50px;
+    padding-bottom:50px;
+    font-size:50px;
+}
+.green-fadeout {
+    background-image:linear-gradient(#7d9c7c, #7d9c7c00);
+    width:100%;
+    height:10%;
+    position: absolute;
+    top:0;
+}
+.white-content {
+    width:100%;
+    min-height:500px;
+    position:relative;
+    color:black;
+    font-size:50px;
+}
+.content-container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    min-height:100%;
+}

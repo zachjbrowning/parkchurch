@@ -28,15 +28,15 @@ nav {
     font-size:30px;
 }
 .nav-logo {
-    height:40px;
-    width:40px;
+    height:50px;
+    width:50px;
     padding-right:10px;
     display:flex;
     transition:300ms;
 }
 .navbrand:hover .nav-logo {
-    height:43px;
-    width:43px;
+    height:53px;
+    width:53px;
 }
 .nav-burger {
     stroke-miterlimit: 10;

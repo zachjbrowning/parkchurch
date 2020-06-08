@@ -1,0 +1,24 @@
+{
+    "title" : "Sunday Worship",
+    "sections" : [
+        {
+            "header-text" : ["bigger header"],
+            "class" : "style-1 top-hat bottom-hat",
+            "first" : {
+                "header-text" : ["subpage"],
+                "text" : ["<a=https://google.com>fdghj"]
+            },
+            "second" : {
+                "header-text" : ["another block"]
+            }
+        },
+        {
+            "class" : "style-2",
+            "first" : {
+                "header-text" : ["subpage"],
+                "text" : ["<a=https://google.com>fdghj"]
+            }
+        }
+    ]
+
+}

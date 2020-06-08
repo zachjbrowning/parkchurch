@@ -1,26 +1,92 @@
 {
     "brand" : {
-        "title" : "ZEST",
-        "img" : "zest.svg",
+        "title" : "Parkchurch",
+        "img" : "pc_logo.svg",
         "style" : {
-            "color" : "var(--primary)"
+            "fontFamily" : "'Architects Daughter', cursive"
         }
     },
     "footer" : {
         "note" : ["Developed using the ZEST framework"]
     },
     "colors" : {
-        "primary"   : "#d48301",
-        "secondary" : "#e6b120",
-        "tertiary"  : "#80a521",
-        "quaternary" : "#7a7932",
+        "primary"   : "#712370",
+        "secondary" : "#97027e",
+        "tertiary"  : "#7d9c7c",
+        "quaternary" : "#594E4A",
         "backdrop"  : "#ffffff"
     },
     "paths" : [
         {
             "pathname" : "",
             "filename" : "pages/home.json",
-            "name" : "Home"
+            "name" : "Welcome"
+        },
+        {
+            "pathname" : "align",
+            "name" : "Align",
+            "subpaths" : [
+                {
+                
+                    "pathname" : "sunday-worship",
+                    "name" : "Sunday Worship",
+                    "filename" : "pages/align/sundayworship.json"
+                },
+                {
+                
+                    "pathname" : "weekday-practice",
+                    "name" : "Weekday Practice",
+                    "filename" : "pages/align/weekdaypractice.json"
+                },
+                {
+                
+                    "pathname" : "formation",
+                    "name" : "Formation",
+                    "filename" : "pages/align/formation.json"
+                }
+            ]
+        },
+        {
+            "pathname" : "us-our",
+            "name" : "Us Our",
+            "subpaths" : [
+                {
+                    "pathname" : "common-tables",
+                    "name" : "Common Tables",
+                    "filename" : "pages/usour/commontables.json"
+                },
+                {
+                    "pathname" : "common-rule",
+                    "name" : "Common Rule",
+                    "filename" : "pages/usour/commonrule.json"
+                },
+                {
+                    "pathname" : "common-feasts",
+                    "name" : "Common Feasts",
+                    "filename" : "pages/usour/commonfeasts.json"
+                },
+                {
+                    "pathname" : "common-good",
+                    "name" : "Common Good",
+                    "filename" : "pages/usour/commongood.json"
+                },
+                {
+                    "pathname" : "creative-commons",
+                    "name" : "Creative Commons",
+                    "filename" : "pages/usour/creativecommons.json"
+                }
+            ]
+        },
+        {
+            "pathname" : "resources",
+            "name" : "Resources",
+            "subpaths" : [
+                {
+                    "name" : "Story Web",
+                    "pathname" : "story-web",
+                    "filename" : "pages/resources/storyweb.json"
+                }
+            ]
         }
     ]
 }

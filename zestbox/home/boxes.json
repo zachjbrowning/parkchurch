@@ -1,0 +1,30 @@
+{
+    "links" : [
+        {
+            "pathname" : "align/sunday-worship",
+            "name" : "Sunday Worship",
+            "text" : "We have stuff that changes week to week bro it's pretty cool"
+        },
+        {
+            "pathname" : "align/weekday-practice",
+            "name" : "Day to day practice",
+            "text" : "MORE tings",
+            "img" : "tres.jpg"
+        },
+        {
+            "pathname" : "align/weekday-practice",
+            "name" : "Day to day practice",
+            "text" : "MORE tings"
+        },
+        {
+            "pathname" : "align/weekday-practice",
+            "name" : "Day to day practice",
+            "text" : "MORE tings"
+        },
+        {
+            "pathname" : "align/sunday-worship",
+            "name" : "Sunday Worship",
+            "text" : "We have RESOURCES BABYYYY"
+        }
+    ]
+}
